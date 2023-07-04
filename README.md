@@ -1,2 +1,2 @@
 # CertificateMinter
-A certificate minting web app for an LMS
+This project is a web application that generates and mints NFTs (Non-Fungible Tokens) for certificates of completion. User details are retrieved from the LMS server and posted to this endpoint (https://academixnft.onrender.com/api/v1/certificates), and the application will create a unique certificate design using an SVG template. It then takes a screenshot of the certificate, uploads it to the IPFS (InterPlanetary File System) network along with metadata, and finally mints an NFT representing the certificate on the Polygon Mumbai testnet.
